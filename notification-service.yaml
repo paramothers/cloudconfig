@@ -4,4 +4,7 @@ spring:
     port: 5672
     user: guest
     password: guest
+  client:
+   serviceUrl:
+     defaultZone: http://localhost:8761/eureka
 userParamname: Renganayahi
