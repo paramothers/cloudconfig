@@ -1,0 +1,12 @@
+spring:
+ rabbitmq:  
+   port : 5672
+   username: guest
+   password: guest
+ info: 
+    app: 
+      name: Boot Actuator
+      description: My third round
+      version: 1.1.1
+org:
+ pafour: param-padhu-pavalan-parithi
