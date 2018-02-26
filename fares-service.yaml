@@ -1,1 +1,5 @@
 firstkid: pavalan
+spring:
+ cloud: 
+   client:
+     defaultZone: http://localhost:8761
