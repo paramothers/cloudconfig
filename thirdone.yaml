@@ -12,7 +12,7 @@ spring:
    serviceUrl:
     defaultZone: http://localhost:/8761/eureka
  cloud:
-   config
+   config: 
       uri: http://localhost:8888
 org:
  pafour: param-padhu-pavalan-parithi
