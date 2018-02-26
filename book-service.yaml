@@ -10,5 +10,10 @@ spring:
          destination: inventoryQ
        checkinQ:
          destination: checkinQ  
+ rabbitmq:
+   host: localhost
+   port: 5672
+   username: guest
+   password: guest
 
   
