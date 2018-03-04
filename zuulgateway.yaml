@@ -14,9 +14,10 @@ zuul:
     fare:
       path: /fare/*
       uri:http://localhost:8080
-  endpoints:
-     trace:
+      
+endpoints:
+    trace:
        sensitive: false
-  ribbon:
+ribbon:
     eureka:
        enabled: false
