@@ -3,17 +3,21 @@ spring:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
 zuul:
-  routes:
+  ignoredServices: '*'
   prefix: /api
+  routes:  
     multiplication:
       serviceId: fares-service
       path: /mulitplication/**
+      strip-prefix: false
     notifications:
       serviceId: notification-service
       path: /notification/**
+      strip-prefix: false
     fare:
       path: /fare/*
       uri:http://localhost:8080
+      strip-prefix: false
       
 endpoints:
     trace:
